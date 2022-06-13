@@ -4,11 +4,11 @@
     "compilerOptions": {
         "composite": true,
         "module": "esnext",
-        "outDir": "./dist/out-tsc", // 输出目录
+        // "outDir": "./dist/out-tsc", // 输出目录
         "baseUrl": "src",
         "sourceMap": true, // 把 ts 文件编译成 js 文件的时候，同时生成对应的 map 文件
-        "removeComments": true, // 编译 js 的时候，删除掉注释
-        "declaration": false,
+        // "removeComments": true, // 编译 js 的时候，删除掉注释
+        // "declaration": false,
         "moduleResolution": "node", // 模块的解析
         "emitDecoratorMetadata": true, // 给源码里的装饰器声明加上设计类型元数据。查看issue #2577了解更多信息
         "experimentalDecorators": true, // 启用实验性的ES装饰器

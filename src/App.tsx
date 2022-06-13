@@ -1,5 +1,5 @@
 import Main from "./pages/Main"
-
+import "./tailwind.css"
 
 const App = () => {
   return (
